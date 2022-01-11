@@ -16,6 +16,7 @@
  */
 
 
+
 #include <libethcore/Farm.h>
 
 #if ETH_ETHASHCL
