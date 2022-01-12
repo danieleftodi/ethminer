@@ -93,6 +93,7 @@ enum class SolutionAccountingEnum
 struct MinerSettings
 {
     vector<unsigned> devices;
+    float targetUsage = 1.0;
 };
 
 // Holds settings for CUDA Miner
