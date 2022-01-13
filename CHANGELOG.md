@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [0.19.1] - 2022-01-14
+
+### Merged
+
+- [Apple M1 Silicon](https://github.com/gyf304/ethminer-m1) support (compiles & runs on Intel's X86_64 too)
+- [#2396](https://github.com/ethereum-mining/ethminer/pull/2396) Upgrade boost to 1.77 and upgrade hunter to v0.23.320
+- [#2222](https://github.com/ethereum-mining/ethminer/pull/2222) Add --target-usage flag to allow users to limit GPU usage
+- [#2398](https://github.com/ethereum-mining/ethminer/pull/2398) Implemented prometheus metrics endpoint
+
 ## [0.19.0] - 2020-08-03
 
 ## [0.18.0] - 2019-07-23
@@ -75,7 +84,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 - Disabled Debug configuration for Visual Studio [#69](https://github.com/ethereum-mining/ethminer/issues/69) [#1131](https://github.com/ethereum-mining/ethminer/pull/1131).
 
-
+[0.19.1]: https://github.com/danieleftodi/ethminer/releases/tag/v0.19.1
 [0.19.0]: https://github.com/ethereum-mining/ethminer/releases/tag/v0.19.0
 [0.18.0]: https://github.com/ethereum-mining/ethminer/releases/tag/v0.18.0
 [0.17.1]: https://github.com/ethereum-mining/ethminer/releases/tag/v0.17.1
